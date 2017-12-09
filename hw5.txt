@@ -1,0 +1,25 @@
+1a) Cons: (cons 'A (cons 'B null))
+    List: (list ‘A ‘B)
+
+1b) Cons: (cons (cons 'A (cons 'B null))null)
+    List: (list(list `A 'B))
+
+1c) Cons: (cons 'A (cons(cons 'B null)null))
+    List: (list `A (list 'B))
+
+1d) Cons: (cons(cons(cons 'A null)null) (cons(cons 'B null)null))
+    List: (list(list(list 'A)) (list 'B))
+
+1e) Cons: (cons 'A (cons(cons 'B null) (cons(cons(cons 'C null)null)null)))
+    List: (list 'A (list 'B) (list(list 'C)))
+
+
+2a) (cadr S)
+
+2b) (caadr S)
+
+2c) (caaddr S)
+
+2d) (cadadr S)
+
+2e) (caaddr S)
