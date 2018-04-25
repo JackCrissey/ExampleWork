@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D4CB241EBA879800F3EBB7 /* Driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3D4CB231EBA879800F3EBB7 /* Driver.cpp */; };
+		D3D4CB2E1EBA87E800F3EBB7 /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3D4CB2C1EBA87E800F3EBB7 /* HashTable.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3D4CB1E1EBA879800F3EBB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3D4CB201EBA879800F3EBB7 /* Incremental Rehash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Incremental Rehash"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D4CB231EBA879800F3EBB7 /* Driver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Driver.cpp; sourceTree = "<group>"; };
+		D3D4CB2C1EBA87E800F3EBB7 /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		D3D4CB2D1EBA87E800F3EBB7 /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		D3D4CB2F1EBA883100F3EBB7 /* words.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = words.h; sourceTree = "<group>"; };
+		D3D4CB301EBA883700F3EBB7 /* primes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = primes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D4CB1D1EBA879800F3EBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D4CB171EBA879800F3EBB7 = {
+			isa = PBXGroup;
+			children = (
+				D3D4CB221EBA879800F3EBB7 /* Incremental Rehash */,
+				D3D4CB211EBA879800F3EBB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D4CB211EBA879800F3EBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4CB201EBA879800F3EBB7 /* Incremental Rehash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D4CB221EBA879800F3EBB7 /* Incremental Rehash */ = {
+			isa = PBXGroup;
+			children = (
+				D3D4CB231EBA879800F3EBB7 /* Driver.cpp */,
+				D3D4CB2C1EBA87E800F3EBB7 /* HashTable.cpp */,
+				D3D4CB2D1EBA87E800F3EBB7 /* HashTable.h */,
+				D3D4CB2F1EBA883100F3EBB7 /* words.h */,
+				D3D4CB301EBA883700F3EBB7 /* primes.h */,
+			);
+			path = "Incremental Rehash";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D4CB1F1EBA879800F3EBB7 /* Incremental Rehash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D4CB271EBA879800F3EBB7 /* Build configuration list for PBXNativeTarget "Incremental Rehash" */;
+			buildPhases = (
+				D3D4CB1C1EBA879800F3EBB7 /* Sources */,
+				D3D4CB1D1EBA879800F3EBB7 /* Frameworks */,
+				D3D4CB1E1EBA879800F3EBB7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Incremental Rehash";
+			productName = "Incremental Rehash";
+			productReference = D3D4CB201EBA879800F3EBB7 /* Incremental Rehash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D4CB181EBA879800F3EBB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jack Crissey";
+				TargetAttributes = {
+					D3D4CB1F1EBA879800F3EBB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D3D4CB1B1EBA879800F3EBB7 /* Build configuration list for PBXProject "Incremental Rehash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3D4CB171EBA879800F3EBB7;
+			productRefGroup = D3D4CB211EBA879800F3EBB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D4CB1F1EBA879800F3EBB7 /* Incremental Rehash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D4CB1C1EBA879800F3EBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D4CB2E1EBA87E800F3EBB7 /* HashTable.cpp in Sources */,
+				D3D4CB241EBA879800F3EBB7 /* Driver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3D4CB251EBA879800F3EBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D3D4CB261EBA879800F3EBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D3D4CB281EBA879800F3EBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3D4CB291EBA879800F3EBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D4CB1B1EBA879800F3EBB7 /* Build configuration list for PBXProject "Incremental Rehash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4CB251EBA879800F3EBB7 /* Debug */,
+				D3D4CB261EBA879800F3EBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D4CB271EBA879800F3EBB7 /* Build configuration list for PBXNativeTarget "Incremental Rehash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D4CB281EBA879800F3EBB7 /* Debug */,
+				D3D4CB291EBA879800F3EBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D4CB181EBA879800F3EBB7 /* Project object */;
+}

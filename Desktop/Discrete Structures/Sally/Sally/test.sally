@@ -1,0 +1,67 @@
+// File: test.sally
+//
+//Project2
+//
+
+."Set test" . CR
+5 x SET
+x @ . CR CR
+
+."Do Until Loop test" . CR
+DO
+
+	x @ 5 + x !
+	x @ . CR
+
+x @ 30 >= UNTIL
+CR
+
+."Duplicate test" . CR
+x @ DUP . CR . CR CR
+
+."Drop test" . CR
+x @ DROP
+CR
+
+."Swap Test" . CR
+15 14 . CR . CR
+15 14 SWAP . CR . CR CR
+
+."Rotate Test" . CR
+1 2 3 . CR . CR . CR
+1 2 3 ROT . CR . CR . CR CR
+
+."All should return true" . CR
+3 10 < . CR
+9 10 <= . CR
+10 10 == . CR
+5 10 != . CR
+10 9 >= . CR
+10 3 > . CR CR
+
+."All should return false" . CR
+3 10 > . CR
+9 10 >= . CR
+10 10 != . CR
+5 10 ==	 . CR
+10 9 <=	 . CR
+10 3 < . CR CR
+
+."If Then loop test" . CR
+10 x !
+x @ 20 <
+IFTHEN
+	5 6 >
+	IFTHEN
+		4 6 ==
+		IFTHEN
+			."This isnt working" . CR
+		ELSE
+			."Still Broken" . CR
+		ENDIF
+	ELSE		
+		."If Then is working" . CR
+	ENDIF
+ELSE
+	."This is still messed up" . CR
+ENDIF
