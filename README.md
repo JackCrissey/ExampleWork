@@ -1,5 +1,3 @@
-# homework5-JackCrisseyUMBC
-# project-JackCrisseyUMBC
-# project-JackCrisseyUMBC
-# project-JackCrisseyUMBC
-# ExampleWork
+# Example Work
+Contains sample work from many different semester of school classes. 
+
