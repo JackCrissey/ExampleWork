@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title> &#128664; &#128054; Visitor Parking </title>
+	<link rel="stylesheet" href="Visitor_Parking.css" type="text/css"/>
+	<script type="text/javascript" src="Visitor_Parking.js"></script>
+</head>
+<body onload="timeSpit()">
+<p class="header">
+	<a class = "title" href = "Home.html">iPark</a>
+	<a href = "Home.html"><img class = "dogcar" src="car.png" alt="dogcar"/></a>
+	<a class = "icons" href = "http://www.umbc.edu"><img class = "icons" src="UMBC_logo.jpg" alt="UMBC"/></a>
+	<a class = "icons" href = "https://twitter.com"><img class = "icons" src="Twitter_Icon.png" alt="twitter"/></a>
+	<a class = "icons" href = "https://www.facebook.com"><img class = "icons" src="facebook_icon.png" alt="facebook"/></a>
+</p>
+<ul class="top_list">
+	<li class="top_selected"><a class = "top_link" href = "Visitor_Parking.html">Visitor Map</a></li>
+	<li class="top"><a class = "top_link" href = "Staff.html">Staff Map</a></li>
+	<li class="top"><a class = "top_link" href = "RMap.html">Resident Map</a></li>
+	<li class="top"><a class = "top_link" href = "CMap.html">Commuter Map</a></li>
+	<li class="top" style="float:right"><a class = "top_link" href = "login.html">Login</a></li>
+	<li class="top" style="float:right"><a class = "top_link" href = "contact_us.html">Contact Us</a></li>
+	<li class="top" style="float:right"><a class = "top_link" href = "about_us.html">About Us</a></li>
+</ul>
+<div class = "parking">
+	<p class = "main_textbox">
+		<span style="font-size:20pt">Visitor Parking</span><br/><br/>
+		This is the visitor parking lot map and tracker. Most visitor parking lots usually aren't ever totally full,
+		but the garage by the RAC usually fills up the fastest. If you are going to any of the academic buildings
+		we would recommend parking in the Administration Drive Garage or Lot 9 if you need to go to the engineering
+		or the the ITE building. If you are parking to go to a game we recommend parking in the stadium lot, Lot 5, or the
+		commons garage.
+	</p>
+	<div class = "lot_trackers">
+		<div class = "lot_capacity">
+		<h3>Locations<br/></h3>
+		<dl>
+  			<dt>Commons Garage</dt>
+  				<dd>- Capacity:<span id="commons1">4</span>/50</dd>
+  			<dt>Lot 9</dt>
+  				<dd>- Capacity:<span id="lot91">17</span>/25</dd>
+  			<dt>Administration Ave Garage</dt>
+  				<dd>- Capacity:<span id="admin1">21</span>/100</dd>
+  			<dt>Lot 8</dt>
+  				<dd>- Capacity:<span id="lot81">7</span>/150</dd>
+  			<dt>Walker Ave Garage</dt>
+  				<dd>- Capacity:<span id="walkerave1">19</span>/75</dd>
+  			<dt>Lot 1</dt>
+  				<dd>- Capacity:<span id="lot11">20</span>/25</dd>
+  			<dt>Stadium</dt>
+  				<dd>- Capacity:<span id="stadium1">6</span>/50</dd>
+		</dl>
+		</div>
+		<div class = "lot_sliders">
+			<h3>Sliders<br/></h3>
+			<dl>
+  				<dt class = "slider_def">Commons Garage</dt>
+  					<dd class = "slider_def">- Capacity: <span id="commons">15</span>/50</dd>
+  				<dt class = "slider_def">Lot 9</dt>
+  					<dd class = "slider_def">- Capacity: <span id="lot9">0</span>/25</dd>
+  				<dt class = "slider_def">Admin Garage</dt>
+  					<dd class = "slider_def">- Capacity: <span id="admin">70</span>/100</dd>
+  				<dt class = "slider_def">Lot 8</dt>
+  					<dd class = "slider_def">- Capacity: <span id="lot8">115</span>/150</dd>
+  				<dt class = "slider_def">Walker Ave Garage</dt>
+  					<dd class = "slider_def">- Capacity: <span id="walkerave">45</span>/75</dd>
+  				<dt class = "slider_def">Lot 1</dt>
+  					<dd class = "slider_def">- Capacity: <span id="lot1">0</span>/25</dd>
+  				<dt class = "slider_def">Stadium</dt>
+  					<dd class = "slider_def">- Capacity: <span id="stadium">20</span>/50</dd>
+			</dl>
+			</p>
+			<form action="">
+			<p class = "slider">
+				<input class="slider" id="slider" type="range" min="0" max="15" value="6" step="1" onchange="spit()"/>
+			</p>
+			</form>
+			<ul class="slider_label">
+				<li class = "time">6<br/>am</li>
+				<li class = "time">7<br/>am</li>
+				<li class = "time">8<br/>am</li>
+				<li class = "time">9<br/>am</li>
+				<li class = "time">10<br/>am</li>
+				<li class = "time">11<br/>am</li>
+				<li class = "time">12<br/>pm</li>
+				<li class = "time">1<br/>pm</li>
+				<li class = "time">2<br/>pm</li>
+				<li class = "time">3<br/>pm</li>
+				<li class = "time">4<br/>pm</li>
+				<li class = "time">5<br/>pm</li>
+				<li class = "time">6<br/>pm</li>
+				<li class = "time">7<br/>pm</li>
+				<li class = "time">8<br/>pm</li>
+				<li class = "time">9<br/>pm</li>
+			</ul>
+		</div>
+	</div>
+	<img class = "map" src = "Visitor_Parking.png" alt = "Visitor Map"/>
+</div>
+<div class="bottom_list_all">
+	<ul class = "bottom_list">
+		<li class = "list_header">About Us</li>
+		<li class = "bottom_banner"><a class = "footer" href = "about_us.html">About Us</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "contact_us.html">Contact Us</a></li>
+		<li class = "bottom_banner"> </li>
+	</ul>
+	<ul class = "bottom_list">
+		<li class = "list_header">UMBC Links</li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://www.umbc.edu">Home</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://news.umbc.edu">News and Events</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://about.umbc.edu/visitors-guide/directions/">Directions</a></li>
+	</ul>
+	<ul class = "bottom_list">
+		<li class = "list_header">UMBC Parking</li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://parking.umbc.edu">Home</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "https://umbc.t2hosted.com/Account/Portal">Get a Permit</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://parking.umbc.edu/visitor-parking/">Visitors</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://parking.umbc.edu/citations-3/">Citations</a></li>
+	</ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+ul.top_list {
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top:25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    clear: both;
+    width: 95%;
+    
+}
+
+li.top {
+	display: block;
+	float:left;
+	color: black;
+	/*margin:10px;*/
+	overflow: hidden;
+	text-align: center;
+	padding: 14px 16px;
+	border-right:solid 1px black;
+}
+
+li.top_selected {
+	display: block;
+	float:left;
+	color: black;
+	/*margin:10px;*/
+	background-color: gold;
+	overflow: hidden;
+	text-align: center;
+	padding: 14px 16px;
+	border-right:solid 1px black;
+}
+
+.bottom_list_all{
+	background-image:url(grey_background.jpg);
+	height:225px;
+}
+
+ul.bottom_list {
+	list-style-type: none;
+	margin-left:0;
+	margin:0;
+	float:left;
+	color:white;
+	/*background-color:rgba(0, 0, 0, 0.5);*/
+	padding-left:10%; 
+	padding-top:50px;
+	padding-bottom:50px;
+	/*background-image:url(grey_background.jpg);*/
+	height:125px;
+}
+
+ul.bottom_list_last {
+	list-style-type: none;
+	margin-left:0;
+	padding-right:600px;
+	margin:0;
+	color:white;
+	/*background-color:rgba(0, 0, 0, 0.5);*/
+	padding-left:150px; 
+	padding-top:50px;
+	padding-bottom:50px;
+	/*background-image:url(grey_background.jpg);*/
+	height:200px;
+}
+
+li.list_header {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom:10px;
+}
+
+li.bottom_banner {
+	margin-bottom:7px;
+}
+
+li.top:hover {
+    background-color: gold;
+}
+
+a.title {
+	margin-left:75px;
+	margin-top:50px;
+	float:left;
+	color:gold;
+	font-family:"Calibri", sans-serif;
+	font-size:50pt;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+img.dogcar {
+	margin-left:25px;
+	float:left;
+	width:150px;
+	height:150px;
+	margin-bottom:50px;
+}
+
+a.icons{
+	float:right;
+	margin:10px;
+}
+
+img.icons{
+	width:30px;
+	height:30px;
+}
+
+.parking{
+	background-image:url(https://swe.umbc.edu/~crissey1/448images/parking_lot.jpg);
+	background-size: 100% 100%;
+	min-height:940px;
+	color:white;
+	padding:50px;
+	/*padding-right:200px;*/
+	margin:0;
+	
+	right:0;
+	left:0;
+}
+
+p.main_textbox{
+	background-color:rgba(0, 0, 0, 0.5);
+	color:white;
+	padding:25px;
+	margin:auto;
+	width:800px;
+	height:135px;
+	text-align:center;
+	/*float:left;*/
+}
+
+.lot_trackers{
+	left:50px;
+	position:absolute;
+	/*width:500px;*/
+}
+
+.lot_capacity{
+	background-color:rgba(0, 0, 0, 0.5);
+	color:white;
+	margin-top:25px;
+	padding-left:25px;
+	padding-top:5px;
+	width:300px;
+	height:375px;
+}
+
+p.lot_sliders{
+	background-color:rgba(0, 0, 0, 0.5);
+	color:white;
+	padding:25px;
+	width:300px;
+	height:300px;
+}
+
+img.map{
+	margin-top:50px;
+	width:65%;
+	height:65%;
+	right:50px;
+	position:absolute;
+}
+
+a.footer {
+	color:white;
+	text-decoration: none;
+}
+
+a.footer:hover {
+	color:gold;
+}
+
+img.permit_pic {
+	float:right;
+}
+
+img.permit_pic img {
+	width:150%;
+	height:auto;
+}
+
+footer {
+	width:100%;
+  	min-height:225px;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+dt {
+	margin-top:5px;
+}

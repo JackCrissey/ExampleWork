@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+	<title> &#128664; &#128054; Dormitory Parking </title>
+	<link rel="stylesheet" href="Dorm.css" type="text/css"/>
+	<script type="text/javascript" src="Dorm.js"></script>
+</head>
+<body onload="timeSpit()">
+<p class="header">
+	<a class = "title" href = "Home.html">iPark</a>
+	<a href = "Home.html"><img class = "dogcar" src="car.png" alt="dogcar"/></a>
+	<a class = "icons" href = "http://www.umbc.edu"><img class = "icons" src="UMBC_logo.jpg" alt="UMBC"/></a>
+	<a class = "icons" href = "https://twitter.com"><img class = "icons" src="Twitter_Icon.png" alt="twitter"/></a>
+	<a class = "icons" href = "https://www.facebook.com"><img class = "icons" src="facebook_icon.png" alt="facebook"/></a>
+</p>
+<ul class="top_list">
+	<li class="top"><a class = "top_link" href = "Visitor_Parking.html">Visitor Map</a></li>
+	<li class="top"><a class = "top_link" href = "Staff.html">Staff Map</a></li>
+	<li class="top_selected"><a class = "top_link" href = "RMap.html">Resident Map</a></li>
+	<li class="top"><a class = "top_link" href = "CMap.html">Commuter Map</a></li>
+	<li class="top" style="float:right"><a class = "top_link" href = "login.html">Login</a></li>
+	<li class="top" style="float:right"><a class = "top_link" href = "contact_us.html">Contact Us</a></li>
+	<li class="top" style="float:right"><a class = "top_link" href = "about_us.html">About Us</a></li>
+</ul>
+<div class = "parking">
+	<p class = "main_textbox">
+		<span style="font-size:20pt">Dormitory Parking</span><br/><br/>
+		Welcome to the live tracking of the dormitory parking lots. Dormitory parking lots consists of street parking on Poplar
+		Avenue next to Susquehanna and Patapsco, street parking on Hilltop Circle surrounding the dorms, lot 5, and lot 23.  
+		Parking will be generally hard to find during late night until early morning on weekdays. There is parking within a 10 minutes
+		walking distance at lot 5. Parking is generally easiest to find in the middle of the day or at night on weekdays and saturday on weekends.
+	</p>
+	<div class = "lot_trackers">
+		<div class = "lot_capacity">
+		<h3>Locations<br/></h3>
+		<dl>
+  			<dt>Lot 5</dt>
+  				<dd>- Capacity:<span id="lot51">14</span>/100</dd>
+  			<dt>Lot 23</dt>
+  				<dd>- Capacity:<span id="lot231">27</span>/200</dd>
+	  		<dt>Lot 25</dt>
+  				<dd>- Capacity:<span id="lot251">22</span>/250</dd>			
+  			<dt>Hilltop Circle</dt>
+  				<dd>- Capacity:<span id="hilltop1">18</span>/200</dd>
+  			<dt>Poplar Avenue </dt>
+  				<dd>- Capacity:<span id="popave1">13</span>/100</dd>
+
+		</dl>
+		</div>
+		<div class = "lot_sliders">
+			<h3>Sliders<br/></h3>
+			<dl>
+  				<dt class = "slider_def">Lot 5</dt>
+  					<dd class = "slider_def">- Capacity: <span id="lot5">68</span>/100</dd>
+  				<dt class = "slider_def">Lot 23</dt>
+  					<dd class = "slider_def">- Capacity: <span id="lot23">85</span>/200</dd>
+  				<dt class = "slider_def">Lot 25</dt>
+  					<dd class = "slider_def">- Capacity: <span id="lot25">112</span>/250</dd>
+  				<dt class = "slider_def">Hilltop Circle</dt>
+  					<dd class = "slider_def">- Capacity: <span id="hilltop">108</span>/200</dd>
+  				<dt class = "slider_def">Poplar Avenue</dt>
+  					<dd class = "slider_def">- Capacity: <span id="popave">56</span>/100</dd>
+			</dl>
+			</p>
+			<form action="">
+			<p class = "slider">
+				<input class="slider" id="slider" type="range" min="0" max="15" value="6" step="1" onchange="spit()"/>
+			</p>
+			</form>
+			<ul class="slider_label">
+				<li class = "time">6<br/>am</li>
+				<li class = "time">7<br/>am</li>
+				<li class = "time">8<br/>am</li>
+				<li class = "time">9<br/>am</li>
+				<li class = "time">10<br/>am</li>
+				<li class = "time">11<br/>am</li>
+				<li class = "time">12<br/>pm</li>
+				<li class = "time">1<br/>pm</li>
+				<li class = "time">2<br/>pm</li>
+				<li class = "time">3<br/>pm</li>
+				<li class = "time">4<br/>pm</li>
+				<li class = "time">5<br/>pm</li>
+				<li class = "time">6<br/>pm</li>
+				<li class = "time">7<br/>pm</li>
+				<li class = "time">8<br/>pm</li>
+				<li class = "time">9<br/>pm</li>
+			</ul>
+		</div>
+	</div>
+	<img class = "map" src = "Dorm_Parking.png" alt = "Dormitory Map"/>
+</div>
+<div class="bottom_list_all">
+	<ul class = "bottom_list">
+		<li class = "list_header">About Us</li>
+		<li class = "bottom_banner"><a class = "footer" href = "about_us.html">About Us</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "contact_us.html">Contact Us</a></li>
+		<li class = "bottom_banner"> </li>
+	</ul>
+	<ul class = "bottom_list">
+		<li class = "list_header">UMBC Links</li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://www.umbc.edu">Home</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://news.umbc.edu">News and Events</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://about.umbc.edu/visitors-guide/directions/">Directions</a></li>
+	</ul>
+	<ul class = "bottom_list">
+		<li class = "list_header">UMBC Parking</li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://parking.umbc.edu">Home</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "https://umbc.t2hosted.com/Account/Portal">Get a Permit</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://parking.umbc.edu/visitor-parking/">Visitors</a></li>
+		<li class = "bottom_banner"><a class = "footer" href = "http://parking.umbc.edu/citations-3/">Citations</a></li>
+	</ul>
+</div>
+</body>
+</html>
