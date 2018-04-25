@@ -1,0 +1,7 @@
+1a) This function will always return nothing because it doesnt have a return value. If it did it would always return T[K] is because T[K]
+    will alway be equal to itself unless it is nil in which case it will through an error because the tables are empty. 
+   
+1b)The function h always returns a possitive value of a. When (a > 0) is false the statement becomes (a > 0) or -a. The or operator returns 
+   the second value when the first is false, thus when (a > 0) is false, -a is returned, so if a = -3 it will return 3. When (a > 0) is 
+   true, the and statement returns a, so the statement becomes a or -a. Since a is true, the or operator will return a, so if a=3 then it 
+   will return 3.
