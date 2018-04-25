@@ -1,0 +1,19 @@
+"""import math
+from math import sin, cos, pi
+def sinc(x):
+    if x == 0:
+        return 1
+    return sin(x) / x
+ 
+def my_func(x, y):
+    return sinc(x**2+y**2)"""
+
+
+def my_func(x, y):
+    import math
+    return -((x+1)**2+y**2)+1
+    #return ((x**2)-(2*x)+(y**2))
+    #return math.cos(x)*math.sin(y)
+    #return (x**2 - y)*math.sin(x)
+
+    
